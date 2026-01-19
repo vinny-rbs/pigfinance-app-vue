@@ -1,32 +1,19 @@
-# 💻 PigFinance - Interface Web para Controle Financeiro com Vue.js
+# PigFinance - Interface Web para Controle Financeiro
 
-Sistema de controle de finanças pessoais. Ele permite visualizar, adicionar, editar e remover transações financeiras de forma intuitiva e responsiva, utilizando uma API REST para persistência dos dados.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **Vue 3** — framework  modernos para aplicações frontend.
-- **TypeScript** — Linguagem de programação poderosa para interações do usuário.
-- **Css** — Linguagem de estilização para interfaces mais agradáveis.
-- **Html** — Linguagem de marcação para definir caixas de conteúdos e elementos nas paginas web.
+Sistema de controle financeiro pessoal desenvolvido para organizar receitas e despesas de forma estruturada, com categorização de movimentações financeiras. A aplicação apresenta design moderno, responsivo e acessível, proporcionando maior controle, visibilidade e gestão eficiente dos fluxos financeiros, auxiliando o usuário na tomada de decisões financeiras.
 
 ---
 
-## 📸 Capturas de Tela
+## Tecnologias
 
-Em breve
-
----
-
-## ✨ Demonstração/Deploy
-
-Dá uma olhada no projeto!
-https://pigfinance.vercel.app
+* Html, Css, JavaScript / Vue.js
+* Figma / Design System
+* Typescript
+  
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ````
 financontrol-ui/
@@ -44,10 +31,9 @@ financontrol-ui/
 └── README.md # Documentação do projeto
 ````
 
-
 ---
 
-## 🔌 Integração com a API
+## Integração com a API
 
 A interface consome os dados da API [Finance API (Go)](https://github.com/mth-ribeiro-dev/finance-api-go/tree/master), que fornece os endpoints REST para:
 
@@ -61,7 +47,7 @@ A base da API está configurada em:
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 ```bash
 # Clone o repositório
@@ -77,21 +63,21 @@ npm install
 npm run dev
 A aplicação estará disponível em http://localhost:5173.
 ```
-## 📱 Funcionalidades
+## Funcionalidades
 
-✅ Cadastro de receitas e despesas
+* Cadastro de receitas e despesas
 
-✅ Visualização de saldo e lista de transações
+* Visualização de saldo e lista de transações
 
-✅ Filtros por data e tipo de transação
+* Filtros por data e tipo de transação
 
-✅ Layout responsivo (mobile e desktop)
+* Layout responsivo (mobile e desktop)
 
-🔜 Gráficos interativos com Chart.js (em breve)
+* Gráficos interativos com Chart.js (em breve)
 
-🔜 Exportação de relatórios em PDF (em breve)
+* Exportação de relatórios em PDF (em breve)
 
-## 🧱 Boas Práticas Adotadas
+## Boas Práticas Adotadas
 
 Componentização com foco em reutilização e manutenção
 
@@ -101,12 +87,16 @@ Consumo de API externas
 
 Responsividade e acessibilidade básica aplicada
 
-## ✍️ Autores
+## Autor
 
 Desenvolvido por:
 
-Matheus Ribeiro – [mth-ribeiro-dev](https://github.com/mth-ribeiro-dev)
-
 Vinicius Ribeiro – [vinny-rbs](https://github.com/vinny-rbs)
 
-Contato: matheus.junio159@gmail.com | viniciusjunioribeiro05@gmail.com
+Contato: viniciusjunioribeiro05@gmail.com
+
+
+## Contribuição
+
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir uma issue ou enviar um pull request.
